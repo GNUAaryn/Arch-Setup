@@ -41,12 +41,6 @@ sleep 3s
 pacman -S fish --noconfirm
 clear
 
-# Sets up pipewire.
-echo "Finally, we will be setting up pipewire for audio."
-sleep 3s
-pacman -S pipewire wireplumber pipewire-alsa pavucontrol --noconfirm
-sleep 2s
-clear
 
 # Outro and reboot prompt
 echo "You have successfully installed my config! Now you should reboot. y/n"
