@@ -41,6 +41,12 @@ sleep 3s
 pacman -S fish --noconfirm
 clear
 
+# Sets up pulseaudio.
+echo "Finally, we will be setting up pulseaudio for audio."
+sleep 3s
+pacman -S pulseaudio pavucontrol --noconfirm
+sleep 2s
+clear
 
 # Outro and reboot prompt
 echo "You have successfully installed my config! Now you should reboot. y/n"
