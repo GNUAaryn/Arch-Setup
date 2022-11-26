@@ -17,7 +17,7 @@ sudo ./setup.sh
 ```
 3) Once you are done running setup.sh, you will have to reboot.
 
-4) After rebooting, you will be greeted with a login screen. Watch [this video](https://youtu.be/V3PjnodBMkU) if you need to learn how to use my DWM.
+4) After rebooting, you will be greeted with a login screen.
 
 5) Open a terminal and cd back into my Arch-Setup folder.
 ```
