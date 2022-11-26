@@ -30,7 +30,7 @@ sleep 2s
 pacman -S xorg lightdm lightdm-gtk-greeter gtk3 gtk2 neovim thunar vlc htop fish archlinux-keyring --noconfirm
 systemctl enable lightdm
 cd "/usr/local"
-git clone https://github.com/BigAnteater/dwm-config
+git clone https://github.com/GNUAaryn/dwm-config
 cd "dwm-config"
 bash install.sh
 clear
