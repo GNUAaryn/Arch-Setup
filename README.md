@@ -9,7 +9,7 @@ To install my Arch configs, follow this guide.
 
 1) Clone my git repository
 ```
-cd ~ && git clone https://github.com/BigAnteater/Arch-Setup && cd Arch-Setup
+cd ~ && git clone https://github.com/GNUAaryn/Arch-Setup && cd Arch-Setup
 ```
 2) Run setup.sh as root
 ```
