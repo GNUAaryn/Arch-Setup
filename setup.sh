@@ -27,7 +27,7 @@ clear
 # Installs DWM for the user.
 echo "First we will be setting up DWM."
 sleep 2s
-pacman -S xorg lightdm lightdm-gtk-greeter gtk3 gtk2 neovim thunar vlc htop fish flameshot archlinux-keyring --noconfirm
+pacman -S xorg lightdm lightdm-gtk-greeter gtk3 gtk2 neovim thunar vlc htop fish brightnessctl flameshot archlinux-keyring --noconfirm
 systemctl enable lightdm
 cd "/usr/local"
 git clone https://github.com/GNUAaryn/dwm-config
