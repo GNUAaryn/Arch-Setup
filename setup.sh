@@ -36,7 +36,7 @@ bash install.sh
 clear
 
 # Installs fish shell settings.
-echo "Unlike most people, I'm a weirdo so I use fish. So now you have to use my lame fish config too."
+echo "Installing Fish."
 sleep 3s
 pacman -S fish --noconfirm
 clear
