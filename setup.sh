@@ -36,9 +36,9 @@ bash install.sh
 clear
 
 # Installs fish shell settings.
-echo "Installing Fish."
+echo "Installing Zsh."
 sleep 3s
-pacman -S fish --noconfirm
+pacman -S zsh --noconfirm
 clear
 
 # Sets up pulseaudio.
