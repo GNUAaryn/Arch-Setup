@@ -11,7 +11,6 @@ chsh -s $(which zsh)
 echo "What is your username"
 read USERNAME
 mv /home/$USERNAME/arch-setup/.zshrc /home/aaron
-sleep 2s
 
 # Small talk
 sleep 2s
