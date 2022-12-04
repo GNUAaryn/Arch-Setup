@@ -9,6 +9,7 @@ chsh -s $(which zsh)
 
 # beep boop
 mv /home/aaron/arch-setup/.zshrc /home/aaron
+sleep 2s
 
 # Small talk
 sleep 2s
