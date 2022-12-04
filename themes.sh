@@ -8,7 +8,9 @@ echo "Finally, we will be making zsh run as the default shell."
 chsh -s $(which zsh)
 
 # beep boop
-mv /home/aaron/arch-setup/.zshrc /home/aaron
+echo "What is your username"
+read USERNAME
+mv /home/$USERNAME/arch-setup/.zshrc /home/aaron
 sleep 2s
 
 # Small talk
