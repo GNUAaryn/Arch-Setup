@@ -35,7 +35,7 @@ cd "dwm-config"
 bash install.sh
 clear
 
-# Installs fish shell settings.
+# Installs zsh shell settings.
 echo "Installing Zsh."
 sleep 3s
 pacman -S zsh --noconfirm
